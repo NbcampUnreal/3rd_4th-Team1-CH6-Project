@@ -4,6 +4,12 @@
 #include "Item/KRWeaponItem.h"
 #include "Item/KRModuleItem.h"
 #include "Item/KRConsumeItem.h"
+<<<<<<< HEAD
+=======
+#include "GAS/KRGameplayTags.h"
+
+using namespace KRGameplayTags;
+>>>>>>> origin/feature/Inventory_System
 
 UKRInventoryComponent::UKRInventoryComponent()
 {
@@ -22,6 +28,7 @@ void UKRInventoryComponent::IndexItem(UKRBaseItem* InNewItem)
 
 	const FGameplayTagContainer& ItemTags = InNewItem->GetItemTags(); 
 	
+<<<<<<< HEAD
 	// for (const FGameplayTag& Tag : ItemTags)
 	//
 	// 	if (Tag.MatchesTag(TAG_ItemType)) 
@@ -51,6 +58,37 @@ void UKRInventoryComponent::IndexItem(UKRBaseItem* InNewItem)
 	// 		}
 	// 	}
 	// }
+=======
+	for (const FGameplayTag& Tag : ItemTags)
+	{
+		if (Tag.MatchesTag(TAG_ItemType)) 
+		{
+			ItemsByCategory.FindOrAdd(Tag).Items.AddUnique(InNewItem);
+		}
+	}
+	
+	if (UKRWeaponItem* Weapon = Cast<UKRWeaponItem>(InNewItem))
+	{
+		for (const FGameplayTag& Tag : ItemTags)
+		{
+			if (Tag.MatchesTag(TAG_ItemType_Equip_Sword) || Tag.MatchesTag(TAG_ItemType_Equip_Gun)) 
+			{
+				ItemsByWeaponType.FindOrAdd(Tag).Items.AddUnique(Weapon);
+			}
+		}
+	}
+	
+	if (UKRModuleItem* Module = Cast<UKRModuleItem>(InNewItem))
+	{
+		for (const FGameplayTag& Tag : ItemTags)
+		{
+			if (Tag.MatchesTag(TAG_ItemType_Equip_GunModule) || Tag.MatchesTag(TAG_ItemType_Equip_SwordModule))
+			{
+				ItemsByModuleType.FindOrAdd(Tag).Items.AddUnique(Module);
+			}
+		}
+	}
+>>>>>>> origin/feature/Inventory_System
 }
 
 void UKRInventoryComponent::UnindexItem(UKRBaseItem* InItem)
@@ -59,6 +97,7 @@ void UKRInventoryComponent::UnindexItem(UKRBaseItem* InItem)
 
 	const FGameplayTagContainer& ItemTags = InItem->GetItemTags();
 	
+<<<<<<< HEAD
 	// for (const FGameplayTag& Tag : ItemTags)
 	// {
 	// 	if (Tag.MatchesTag(TAG_ItemType)) 
@@ -97,6 +136,46 @@ void UKRInventoryComponent::UnindexItem(UKRBaseItem* InItem)
 	// 		}
 	// 	}
 	// }
+=======
+	for (const FGameplayTag& Tag : ItemTags)
+	{
+		if (Tag.MatchesTag(TAG_ItemType)) 
+		{
+			if (FKRBaseItemArrayWrapper* FoundWrapper = ItemsByCategory.Find(Tag))
+			{
+				FoundWrapper->Items.Remove(InItem);
+			}
+		}
+	}
+	
+	if (UKRWeaponItem* Weapon = Cast<UKRWeaponItem>(InItem))
+	{
+		for (const FGameplayTag& Tag : ItemTags)
+		{
+			if (Tag.MatchesTag(TAG_ItemType_Equip_Sword) || Tag.MatchesTag(TAG_ItemType_Equip_Gun))
+			{
+				if (FKRWeaponItemArrayWrapper* FoundWrapper = ItemsByWeaponType.Find(Tag))
+				{
+					FoundWrapper->Items.Remove(Weapon);
+				}
+			}
+		}
+	}
+	
+	if (UKRModuleItem* Module = Cast<UKRModuleItem>(InItem))
+	{
+		for (const FGameplayTag& Tag : ItemTags)
+		{
+			if (Tag.MatchesTag(TAG_ItemType_Equip_GunModule) || Tag.MatchesTag(TAG_ItemType_Equip_SwordModule)) 
+			{
+				if (FKRModuleItemArrayWrapper* FoundWrapper = ItemsByModuleType.Find(Tag))
+				{
+					FoundWrapper->Items.Remove(Module);
+				}
+			}
+		}
+	}
+>>>>>>> origin/feature/Inventory_System
 }
 
 void UKRInventoryComponent::RebuildIndex()

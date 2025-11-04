@@ -28,6 +28,10 @@
   <component name="ChangeListManager">
     <list default="true" id="34dd77b5-0842-4646-9c9b-5a2a80418b5f" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KORAProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KORAProject/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" afterDir="false" />
+>>>>>>> origin/feature/Inventory_System
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/Item/GameplayTags/KRGameplayTags_Ability.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -68,6 +73,39 @@
     <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/Item/GameplayTags/KRGameplayTags_Shop.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/Item/GameplayTags/KRProjectTagsModule.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/Item/GameplayTags/KRProjectTagsModule.h" root0="SKIP_HIGHLIGHTING" />
+=======
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/KORAProject/GAS/KRGameplayTags.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/GAS/KRGameplayTags.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/GAS/KRGameplayTags.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/KORAProject/GAS/KRGameplayTags.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Git/3rd_4th-Team1-CH6-Project/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.h" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> origin/feature/Inventory_System
     <setting file="file://$PROJECT_DIR$/Source/KORAProject/Item/KRBaseItem.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/KORAProject/Item/KRBaseItem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/KORAProject/Item/KRConsumeItem.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -93,6 +131,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;C/C++ 프로젝트.KORAProject.executor&quot;: &quot;Debug&quot;,
@@ -110,6 +149,25 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ 프로젝트.KORAProject.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/Inventory__System",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> origin/feature/Inventory_System
   <component name="RunManager" selected="C/C++ 프로젝트.KORAProject">
     <configuration name="KORAProject" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -229,6 +287,12 @@
       <workItem from="1761791799825" duration="2099000" />
       <workItem from="1761868798713" duration="9581000" />
       <workItem from="1762127594859" duration="13955000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1762178242913" duration="678000" />
+      <workItem from="1762218305329" duration="1749000" />
+      <workItem from="1762220116713" duration="4309000" />
+>>>>>>> origin/feature/Inventory_System
     </task>
     <task id="LOCAL-00001" summary="[feat] 프로젝트 초기 설정 파일 추가">
       <option name="closed" value="true" />
@@ -299,6 +363,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+<<<<<<< HEAD
+=======
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/KORAProject/InventoryComponent/KRInventoryComponent.cpp</url>
+          <line>135</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+>>>>>>> origin/feature/Inventory_System
       </breakpoints>
     </breakpoint-manager>
   </component>
